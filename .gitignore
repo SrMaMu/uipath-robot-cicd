@@ -1,0 +1,33 @@
+# UiPath specific
+*.logs
+*.log
+temp/
+logs/
+.screenshots/
+
+# Build outputs
+*.nupkg
+bin/
+obj/
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GitHub Actions
+.github/workflows/local-*
+
+# Temporary files
+*.tmp
+*.temp
+
+# UiPath CLI
+UiPath.CLI/
+UiPath.CLI.nupkg
