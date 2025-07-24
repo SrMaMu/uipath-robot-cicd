@@ -1,0 +1,21 @@
+{
+  "robotSettings": {
+    "executionTimeout": 1800,
+    "logLevel": "Information",
+    "enableAnalytics": false,
+    "enableLogging": true
+  },
+  "orchestratorSettings": {
+    "folderPath": "/Default",
+    "environment": "Production"
+  },
+  "processSettings": {
+    "defaultProcess": "Main",
+    "inputArguments": {},
+    "outputArguments": {}
+  },
+  "retrySettings": {
+    "maxRetries": 3,
+    "retryInterval": 5
+  }
+}
