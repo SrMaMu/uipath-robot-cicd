@@ -1,0 +1,53 @@
+{
+  "name": "UiPath Robot Demo",
+  "description": "Demo project for UiPath Robot CI/CD with GitHub Actions",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.UIAutomation.Activities": "[22.10.3]"
+  },
+  "webSearchUrl": "",
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "bf1b088b-1bd1-4edb-b5e9-4f6c1a8b5f8c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "hasExceptionHandlingWorkflow": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.4.20911",
+  "projectType": "Process"
+}
